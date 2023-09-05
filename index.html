@@ -8,11 +8,26 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secundary">ASSINE AGORA</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">ENTRAR</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="./dist/images/disneyplus.svg" alt="Disney+">
-            </h1>
+            </div>
             <h3 class="title--small">
                 As melhores histórias em um só lugar.
             </h3>
@@ -145,6 +160,199 @@
             *O preço pode varias caso a assinatura seja feita através de outras plataformas.
         </p>
     </section>
+    <section class="image-text-section">
+        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem com tv, computador, tablet e celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Watch the way you want</h2>
+            <p class="text--big">
+                Enjoy the big screen of your TV or watch on your tablet, laptop, cellphone, and other devices. 
+                Our selection of 4K titles keeps growing. Moreover, to everyone's delight, you can watch on up to 4 screens simultaneously.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="Fundo Rei Leão">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">Download movies and series</h2>
+            <p class="text--big">
+                Download and watch whenever and wherever you want. 
+                This way, your favorites are always with you, even without an internet connection.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">
+            Disponível nos seus dispositivos favoritos.
+        </h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="tv">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="videogames">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X</li>
+                    <li>Xbox Series S</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="celulares">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Frequently Asked Questions</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    What is Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>Disney+ is the streaming home for entertainment from Disney, Pixar, Marvel, Star Wars, National Geographic, Star and more.</p>
+                    <br>
+                    <p>Disney+ has a number of benefits included in the standard subscription price:</p>
+                    <ul class="faq__questions__item__answer__answers">
+                        <li>Exclusive Originals you can’t see anywhere else, blockbuster movies, bingeable shows, snackable shorts, and inspiring documentaries</li>
+                        <li>Unlimited downloads on up to 10 devices and up to 7 different profiles</li>
+                        <li>4K UHD streaming with Dolby Vision and Dolby Atmos support on compatible devices for no extra cost</li>
+                        <li>A robust parental controls system including dedicated profiles for children</li>
+                        <li>Up to 4 screens can stream simultaneously</li>
+                        <li>Host virtual viewing parties for up to 5 personal friends with Groupwatch</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    What can I watch on Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    With thousands of films and series from the greatest storytellers around the globe and more added each month, you will always find something to watch on Disney+
+                    <br>
+                    <ul class="faq__questions__item__answer__answers">
+                        <li>Timeless classics and recent hits from Walt Disney Animation Studios like Encanto and live-action blockbusters such as <i>Jungle Cruis</i></li>
+                        <li>Heart-warming storytelling for all ages from the masterminds at Pixar including Lightyear - the definitive origin story of Buzz Lightyear, the hero who inspired the toy</li>
+                        <li>Experience the Marvel Cinematic Universe with box office hits like Thor: Love and Thunder and Doctor Strange in the Multiverse of Madness. Stream must-see exclusive Original series like Loki, She-Hulk, Moon Knight and more</li>
+                        <li>Travel to a galaxy far, far away to relive the entire Skywalker Saga or stream exclusive live-action Star Wars series such as <i>The Mandalorian, Obi-Wan Kenobi and Andor</i></li>
+                        <li>Open your eyes to the beauty of our planet with fearless National Geographic explorers and a number of insightful documentaries</li>
+                        <li>Bingeable series that everyone is talking about like the exclusive final season of the global phenomenon <i>The Walking Dead</i> or follow the world's most famous family in <i>The Kardashians</i></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    How much does Disney+ cost?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>Disney+ subscription costs £7.99 a month. Alternatively, save 16%* with the annual subscription at £79.90 a year and get 12 months for the price of 10.</p>
+                    <br>
+                    <p>You can also purchase a Disney+ annual subscription for someone else as a gift, <a href="https://www.disneyplus.com/en-gb/welcome/gift-subscription">here</a>.</p>
+                    <br>
+                    <p>*savings compared to 12 months of the monthly price.</p>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    What devices are supported?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Disney+ supports mobile devices, web browsers, game consoles, set-top boxes, and smart TVs. Click <a href="https://help.disneyplus.com/pt-BR/article/disneyplus-devices-supported">here</a> for the full list.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Is there any commitment when signing up for Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    There are no commitments and you can cancel at any time, effective at the end of your current payment period. Just follow the below 5 easy steps:
+                    <br>
+                    <ol class="faq__questions__item__answer__order">
+                        <li>Timeless classics and recent hits from Walt Disney Animation Studios like Encanto and live-action blockbusters such as <i>Jungle Cruis</i></li>
+                        <li>Heart-warming storytelling for all ages from the masterminds at Pixar including Lightyear - the definitive origin story of Buzz Lightyear, the hero who inspired the toy</li>
+                        <li>Experience the Marvel Cinematic Universe with box office hits like Thor: Love and Thunder and Doctor Strange in the Multiverse of Madness. Stream must-see exclusive Original series like Loki, She-Hulk, Moon Knight and more</li>
+                        <li>Travel to a galaxy far, far away to relive the entire Skywalker Saga or stream exclusive live-action Star Wars series such as <i>The Mandalorian, Obi-Wan Kenobi and Andor</i></li>
+                        <li>Open your eyes to the beauty of our planet with fearless National Geographic explorers and a number of insightful documentaries</li>
+                        <li>Bingeable series that everyone is talking about like the exclusive final season of the global phenomenon <i>The Walking Dead</i> or follow the world's most famous family in <i>The Kardashians</i></li>
+                    </ol>
+                    <p>For more information click <a href="https://help.disneyplus.com/en-GB/article/disneyplus-cancel">here</a>.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img src="./dist/images/disneyplus.svg" alt="Disney+" class="footer__logo">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o Disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                © 2023 Disney and its related entities. All Rights Reserved.
+            </p>
+            <p class="text--small">
+                Content and platform availability may vary by region.
+            </p>
+        </div>
+    </footer>
     <script src="./src/main.js"></script>
 </body>
 </html>
