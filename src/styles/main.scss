@@ -80,7 +80,7 @@ body{
     @include title(28px);
 
     @media (max-width:768px){
-        @include title(22px)
+        @include title(22px);
     }
 }
 .link-text{
